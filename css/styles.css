@@ -1,0 +1,148 @@
+
+body {
+    font-family: 'Roboto', serif;
+    font-size: 14px; 
+    padding:0px;
+    margin-top: 0;
+}
+header {
+    display:flex;
+    justify-content: flex-end;
+    background: #F2F2F2;
+    align-items: center;
+    padding:0px;
+    margin-left:auto;
+}
+.title {
+    cursor:pointer;
+    color:#20a8b4;
+    background: #F2F2F2;
+    margin-right: auto;
+}
+
+#code {
+    color: #ff5c0f;
+}
+
+.nav_links {
+    list-style: none;
+    color:black;
+  }
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3 ease 0s;
+}
+.nav_links li a:hover{
+    color:#ff5c0f;  
+}
+.contact-us {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #20a8b4;
+    font-family: 'Roboto';
+    padding: 12px;
+    border-radius: 10px;
+    display: flex-start;
+    flex-basis: 100%;
+}
+
+li,a {
+    font-family:'Roboto', serif;
+    font-size: 14px;
+    text-decoration: none;
+    color:black;
+}
+
+.button {
+    background-color: #20a8b4;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 3px;
+}
+.button:hover {
+    background-color: #ff5c0f;
+}
+.contact-us:hover {
+    background-color: #ff5c0f;
+}
+.learn {
+     display: flex;
+     align-items: center;
+} 
+
+.do-you-container {
+    display: flex;
+    align-items: center;
+}
+
+.new-body {
+     margin: 10px;
+     width: 100%;
+     justify-content: space-between;
+}
+h3{
+    font-size: 14px;
+}
+
+#toCode {
+    color: #ff5c0f;
+} 
+
+.together{
+    display: block;
+    float: left;
+    margin-right:200px;
+    width:auto;
+    width:350px;
+    height:350px;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-us {
+        width:100;
+    }
+    .title {
+        margin: 0px;
+        margin-right: auto;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    li {
+        padding: 6px;
+        align-items: center;
+    }
+    .nav_links {
+        display: inline-block;
+        flex-direction: row;
+    }
+    .button{
+        width: 100;
+    }
+  
+    .learn{
+       max-width:100;
+    }
+    .together{
+        display: block;
+        visibility: visible;
+        float: left;
+        width: auto;
+        margin-right:200px;
+        width:350px;
+        height:350px;
+    }
+
+}
